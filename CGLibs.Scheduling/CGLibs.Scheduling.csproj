@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0;NET40;NET46;NET472;NET48</TargetFrameworks>
+		<SignAssembly>true</SignAssembly>
+		<AssemblyOriginatorKeyFile>CGLibsStrongNameKey.snk</AssemblyOriginatorKeyFile>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+		<PackageIconUrl>https://gritton-ng-ux.azurewebsites.net/assets/img/gritton-logov2-green-64x64.png</PackageIconUrl>
+		<PackageProjectUrl>https://github.com/christopher-gritton/cglibs-scheduling.git</PackageProjectUrl>
+		<PackageIcon>gritton-logov2-green-64x64.png</PackageIcon>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+	    <Authors>Elk Creek Services,Christopher Gritton</Authors>		
+		<Company>Elk Creek Services</Company>
+		<PackageTags>schedule workflow event timer</PackageTags>
+		<AssemblyVersion>8.51.140.827</AssemblyVersion>
+		<FileVersion>8.51.140.827</FileVersion>
+		<Version>8.51.140.827</Version>
+		<Description>Scheduling components</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="LICENSE.txt" Pack="true" PackagePath="" />
+		<None Include="gritton-logov2-green-64x64.png" Pack="true" PackagePath=""/>
+		<None Include="../README.md" Pack="true" PackagePath=""/>
+	</ItemGroup>
+
+</Project>
